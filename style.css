@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    color: purple;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #a29bfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 50px;
+    color: black;
+}
+input{
+    height: 10vh;
+    width: 400px;
+    background: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size:40px;
+    margin: 20px  ;
+    outline: none;
+}
+.row{
+    /* border: 2px solid red; */
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row h2{
+    font-size: 50px;
+    margin-left: 20px;
+    color: purple;
+}
+
+
